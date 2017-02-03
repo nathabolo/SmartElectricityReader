@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "128255600589",
+    "firebase_url": "https://electricreader-cc853.firebaseio.com",
+    "project_id": "electricreader-cc853",
+    "storage_bucket": "electricreader-cc853.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128255600589:android:36c980027caf1299",
+        "android_client_info": {
+          "package_name": "com.example.android.electricreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128255600589-h4e4qs5b1mj7v0rgdqljantuq22n4hgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPU__rqxHux6BHypiT4tOho5P-EJeC5MU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128255600589-h4e4qs5b1mj7v0rgdqljantuq22n4hgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
