@@ -36,11 +36,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//
-//            if (auth.getCurrentUser() != null) {
-//                startActivity(new Intent(MainActivity.this, LoginActivity.class));
-//                finish();
-//            }
 
         btnSignIn = (Button) findViewById(R.id.sign_in_button);
         btnSignUp = (Button) findViewById(R.id.sign_up_button);

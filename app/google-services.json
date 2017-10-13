@@ -15,6 +15,74 @@
       },
       "oauth_client": [
         {
+          "client_id": "128255600589-q33adlgtjr0hkmlgis2tlrmua5p8r382.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.electricreader",
+            "certificate_hash": "17e51596ca50b47b005e562ca04845f6e4942391"
+          }
+        },
+        {
+          "client_id": "128255600589-iuuc285e79sqrmr0e0a8kk3kbk0rb8mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.electricreader",
+            "certificate_hash": "10aea56e7b038cc13d71c29b4e08a2fa53b45359"
+          }
+        },
+        {
+          "client_id": "128255600589-08ejteld2rg78bhg3bc1tqqffj7p5vl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.electricreader",
+            "certificate_hash": "ac4b3491ffed11c6ece596654b200cdff6191038"
+          }
+        },
+        {
+          "client_id": "128255600589-h4e4qs5b1mj7v0rgdqljantuq22n4hgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPU__rqxHux6BHypiT4tOho5P-EJeC5MU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128255600589-h4e4qs5b1mj7v0rgdqljantuq22n4hgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128255600589:android:932b5877863f9497",
+        "android_client_info": {
+          "package_name": "com.example.android.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128255600589-7if468vhqfrqeg4oql60r096s2cgeu52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.notifications",
+            "certificate_hash": "ac4b3491ffed11c6ece596654b200cdff6191038"
+          }
+        },
+        {
           "client_id": "128255600589-h4e4qs5b1mj7v0rgdqljantuq22n4hgu.apps.googleusercontent.com",
           "client_type": 3
         }

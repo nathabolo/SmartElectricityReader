@@ -3,6 +3,14 @@
     package="com.example.android.electricreader">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -17,10 +25,64 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResetPasswordActivity"
-            android:label="Reset Password"/>
-        <activity android:name=".LoginActivity"
-            android:label="Login"></activity>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="Reset Password" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".UserInputActivity"
+            android:label="User Input" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".JanActivity"
+            android:label="January Statement" />
+        <activity android:name=".FragmentHolder" />
+        <activity
+            android:name=".FebActivity"
+            android:label="February Statement" />
+        <activity
+            android:name=".MarchActivity"
+            android:label="March Statement" />
+        <activity
+            android:name=".AprilActivity"
+            android:label="April Statement" />
+        <activity
+            android:name=".MayActivity"
+            android:label="May Statement" />
+        <activity
+            android:name=".JuneActivity"
+            android:label="June Statement" />
+        <activity
+            android:name=".JulyActivity"
+            android:label="July Statement" />
+        <activity
+            android:name=".AugustActivity"
+            android:label="August Statement" />
+        <activity
+            android:name=".SepActivity"
+            android:label="September Statement" />
+        <activity
+            android:name=".OctActivity"
+            android:label="October Statement" />
+        <activity
+            android:name=".NovActivity"
+            android:label="November Statement" />
+        <activity
+            android:name=".DecActivity"
+            android:label="December Statement" />
+        <activity android:name=".AddComments"></activity>
     </application>
 
 </manifest>

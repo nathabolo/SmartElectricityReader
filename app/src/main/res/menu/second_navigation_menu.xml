@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffccbc">
+
+    <item android:id="@+id/nav_account"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_person_white_24dp"
+        android:title="My Account"></item>
+
+
+    <item android:id="@+id/nav_settings"
+        android:icon="@mipmap/ic_settings_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Settings"></item>
+
+
+    <item android:id="@+id/nav_logout"
+        app:showAsAction="withText"
+        android:icon="@mipmap/logout_128"
+        android:title="Log Out"></item>
+
+</menu>
